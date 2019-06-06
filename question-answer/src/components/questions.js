@@ -37,6 +37,7 @@ toggleListen() {
 
   handleListen(){
     // handle speech recognition here
+    //need to handle continuous listening here
     if (this.state.listening) recognition.start()
 
     let finalTranscript = ''
