@@ -1,0 +1,45 @@
+.question-item {
+  padding: 0 20px 20px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.question-item .question {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.question-item textarea {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px;
+  color: #3d414f;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  width: 90%;
+  min-height: 60px;
+}
+
+.question-item textarea:focus {
+  border: 1px solid #3d414f;
+  outline: 1px solid #000000;
+}
+
+.question-item .answer {
+  margin-left: 30px;
+}
+
+.question-item #microphone-btn {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 3px solid rgb(160, 155, 199);
+  cursor: pointer;
+}
+
+.question-item #microphone-btn:hover {
+  background: #edecef;
+}
